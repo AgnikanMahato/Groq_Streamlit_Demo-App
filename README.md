@@ -36,7 +36,7 @@ Build a Streamlit AI chatbot using Groq, the fastest LLM inference API. We will 
   Navigate to the app's directory and run:
 
 ```CMD
-Streamlight run streamlit_app.py
+Streamlit run streamlit_app.py
 
 ## Usage
 
