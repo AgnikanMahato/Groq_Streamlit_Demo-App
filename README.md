@@ -1,24 +1,10 @@
 # Groq_Streamlit_Demo-App
 Build a Streamlit AI chatbot using Groq, the fastest LLM inference API. We will review the code for building the app to include a menu option to select the model type and a slider to choose the tokens.
-# Groq Chat Streamlit App
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://groqdemo.streamlit.app/)
-
-![Demo App Screenshot](images/groq_demo.png)
-
-This [Streamlit](https://streamlit.io/) app integrates with the [Groq API](https://groq.com/) to provide a chat interface where users can interact with advanced language models. It allows users to choose between two models for generating responses, enhancing the flexibility and user experience of the chat application.
-
-It is blazing FAST; try it and see! 🏎️ 💨 💨 💨
-
-**Check out the video tutorial 👇**
-
-<a href="https://youtu.be/WQvinJGYk90">
-  <img src="https://img.youtube.com/vi/WQvinJGYk90/hqdefault.jpg" alt="Watch the video" width="100%">
-</a>
+# Groq Chat Streamlit App:
 
 ## Features
 
-- **Model Selection**: Users can select between `mixtral-8x7b-32768`, `llama2-70b-4096`, `Gemma-7b-it`, `llama2-70b-4096`, `llama3-70b-8192`, and `lama3-8b-8192` models to tailor the conversation according to each model's capabilities.
+**Model Selection**: Users can select between `mixtral-8x7b-32768`, `llama2-70b-4096`, `Gemma-7b-it`, `llama2-70b-4096`, `llama3-70b-8192`, and `lama3-8b-8192` models to tailor the conversation according to each model's capabilities.
 - **Chat History**: The app maintains a session-based chat history, allowing for a continuous conversation flow during the app session.
 - **Dynamic Response Generation**: Utilizes a generator function to stream responses from the Groq API, providing a seamless chat experience.
 - **Error Handling**: Implements try-except blocks to handle potential errors gracefully during API calls.
