@@ -11,7 +11,7 @@ Build a Streamlit AI chatbot using Groq, the fastest LLM inference API. We will 
 
 ## Requirements
 
-- Streamlight
+- Streamlit
 - Groq Python SDK
 - Python 3.7+
 
@@ -20,7 +20,7 @@ Build a Streamlit AI chatbot using Groq, the fastest LLM inference API. We will 
 - **Install Dependencies**:
 
   ```bash
-  pip install streamlet grow
+  pip install streamlit grow
   ```
 
 - **Set Up Groq API Key**:
